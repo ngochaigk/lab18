@@ -1,0 +1,42 @@
+#carouselExampleCaptions {
+  height: 100vh;
+}
+
+.img-1 {
+  height: 100vh;
+  background: linear-gradient(#0000003d, #00000045),
+    url(light-mountain-woods-nt7mxk9mxuec59ar.jpg);
+  background-size: cover;
+}
+
+.img-2 {
+  height: 100vh;
+  background: linear-gradient(#0000003d, #00000045),
+    url(dawn-over-the-woods-hcck747bsbkngaom.jpg);
+  background-size: cover;
+}
+
+.img-3 {
+  height: 100vh;
+  background: linear-gradient(#0000003d, #00000045),
+    url(woods-of-conifers-erdjl1tw7b6ri3bb.jpg);
+  background-size: cover;
+}
+
+.carousel-caption {
+  text-align: left;
+  top: 55%;
+  transform: translate(0%, -50%);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
